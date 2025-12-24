@@ -1,3 +1,6 @@
+# nginx-dummy-proxy
+Alternative for not opening ports other than 22, 403 and 80.
+
 ### **.env** file
 ```markdown
 # Port of your service that will be proxied to 443
@@ -15,5 +18,7 @@ NETWORK_NAME=stroke-predict-spark-feast_stroke-network
 ### make up
 
 ### make down
+
+
 
 
